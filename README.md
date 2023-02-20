@@ -7,12 +7,12 @@ This repo hosts the presets and sources needed to build a Docker image runnng mi
 # Usage:
 - Fetch the image
 ```
-docker pull ghcr.io/portalhubyt/template_server:latest
+docker pull ghcr.io/portalhubyt/template_server:normal_gen_latest
 ```
 
 - Run the image
 ```
-docker run -d -e EULA=TRUE -p 25575:25575 -p 25565:25565 ghcr.io/portalhubyt/template_server:latest 
+docker run -d -e EULA=TRUE -p 25575:25575 -p 25565:25565 ghcr.io/portalhubyt/template_server:normal_gen_latest
 ```
 
 Mandatory options:
